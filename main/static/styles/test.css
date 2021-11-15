@@ -1,0 +1,18 @@
+body {
+  animation: headerLane 7s linear infinite alternate;
+}
+
+@keyframes headerLane {
+  0% {
+    background-color: #f7fbff;
+  }
+  33% {
+    background-color: #c1dcf8;
+  }
+  66% {
+    background-color: #73b7fb;
+  }
+  100% {
+    background-color: #58abff;
+  }
+}
