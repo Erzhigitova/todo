@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse
-from .models import ToDo
+from .models import ToDo, ToMeet
 
 # Create your views here.
 
@@ -11,4 +11,5 @@ def test(request):
     return render(request, "test.html", {"todo_list":todo_list})
 
 def second(request):
-    return HttpResponse("Test page 2")
+    tomeet_list=ToMeet.objects.all()
+    return render(request, "meet.html", {"tomeet_list":tomeet_list})
