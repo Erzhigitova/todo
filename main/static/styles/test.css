@@ -10,9 +10,9 @@ body {
     background-color: #c1dcf8;
   }
   66% {
-    background-color: #73b7fb;
+    background-color: hsl(187, 92%, 91%);
   }
   100% {
-    background-color: #58abff;
+    background-color: #ebffd2;
   }
 }
