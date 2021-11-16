@@ -1,5 +1,5 @@
 body {
-  animation: headerLane 7s linear infinite alternate;
+  animation: headerLane 15s linear infinite alternate;
 }
 
 @keyframes headerLane {
@@ -7,12 +7,12 @@ body {
     background-color: #f7fbff;
   }
   33% {
-    background-color: #c1dcf8;
+    background-color: hsl(211, 34%, 75%);
   }
   66% {
     background-color: hsl(187, 92%, 91%);
   }
   100% {
-    background-color: #ebffd2;
+    background-color: #f2ffea;
   }
 }
